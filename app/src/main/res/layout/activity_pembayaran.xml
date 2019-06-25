@@ -17,17 +17,13 @@
         />
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/1t"/>
-
-        </LinearLayout>
+                android:src="@drawable/headerpembayaran"/>
     </LinearLayout>
 
     <LinearLayout
