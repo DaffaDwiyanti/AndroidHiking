@@ -49,18 +49,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            android:src="@drawable/maps"
-            android:layout_marginTop="12.5dp"
-            android:layout_marginLeft="70dp"
-            bring/>
-        <ImageView
             android:id="@+id/papan"
             android:layout_width="309dp"
             android:layout_height="75dp"
             android:layout_marginLeft="50dp"
             android:src="@drawable/papan"/>
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/maps"
+            android:layout_marginTop="12.5dp"
+            android:layout_marginLeft="70dp"
+            />
 
     </RelativeLayout>
 
@@ -90,12 +90,6 @@
 
 </LinearLayout>
 
-    <ImageView
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:src="@drawable/maps"
-        android:layout_marginTop="12.5dp"
-        android:layout_marginLeft="70dp"/>
 
 
 </RelativeLayout>

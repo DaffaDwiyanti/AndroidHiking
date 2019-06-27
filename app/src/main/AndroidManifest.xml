@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".listroom"></activity>
         <activity
             android:name=".detailtrip"
             android:label="@string/title_activity_detailtrip"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Verifikasi" />
         <activity android:name=".Pembayaran" />
         <activity android:name=".Pemesanan">
