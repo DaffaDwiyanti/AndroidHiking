@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".popupchat">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:background="@color/putih">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/gunung2"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semeru Trip"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="Gathering With G-Family!Gathering With G-Family!Gathering With G-Family!"
+            android:textAlignment="center"/>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o1"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o2"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o3"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o4"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o5"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o6"
+                android:layout_marginLeft="3dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp">
+
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o8"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o9"
+                android:layout_marginLeft="3dp"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="1.25dp"
+                android:src="@drawable/o7"
+                android:layout_marginLeft="3dp"/>
+
+        </LinearLayout>
+        
+
+    </LinearLayout>
+</RelativeLayout>
