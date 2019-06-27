@@ -25,29 +25,52 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gunung Gede"/>
+            android:text="Gunung Gede"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/design_default_color_primary"
+            android:layout_marginLeft="10dp"
             android:text="12 Agustus 2019 - 16 Agustus 2019"/>
     </LinearLayout>
 
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2.5dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:elevation="2dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Titik Kumpul"/>
+            android:text="Titik Kumpul"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="18dp"/>
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/location"/>
+            android:src="@drawable/location"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
     </LinearLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
         <ImageView
             android:id="@+id/papan"
             android:layout_width="309dp"
@@ -58,35 +81,170 @@
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:src="@drawable/maps"
-            android:layout_marginTop="12.5dp"
-            android:layout_marginLeft="70dp"
-            />
+            android:layout_marginTop="10.5dp"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:layout_width="186"
+            android:layout_height="wrap_content"
+            android:text="Station is a train station located in the city of Bogor, West Java."
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@color/putih"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stasiun Bogor"
+            android:textSize="18dp"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"/>
 
     </RelativeLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Slot"/>
+        android:text="Slot"
+        android:textSize="18dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_marginLeft="10dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="15 Orang"/>
+        android:text="15 Orang"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_marginLeft="10dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Paket Termaksuk"/>
+        android:text="Paket Termaksuk"
+        android:textSize="18dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_marginLeft="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp">
 
-    <ImageView
-        android:layout_width="379dp"
-        android:layout_height="175dp"
-        android:layout_marginLeft="17.5dp"
-        android:src="@drawable/papan"/>
+        <ImageView
+            android:layout_width="379dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="17.5dp"
+            android:src="@drawable/papan"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp">
 
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/null"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/asuransi-icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Asuransi"
+                    android:textColor="@color/putih"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/asuransi-icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Transportasi"
+                    android:textColor="@color/putih"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/asuransi-icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Simaksi"
+                    android:textColor="@color/putih"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/asuransi-icon" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Guide"
+                    android:textColor="@color/putih"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <ImageView
         android:layout_width="419dp"
         android:layout_height="55dp"
-        android:src="@drawable/bawah"/>
+        android:src="@drawable/bawah"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 250,000/Orang"
+        android:textColor="@color/kuning"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@color/kuning"
+        android:text="Pesan"
+        android:textColor="@color/putih"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="300dp"
+        android:shadowRadius="6dp"/>
+
+</RelativeLayout>
 
 </LinearLayout>
 
